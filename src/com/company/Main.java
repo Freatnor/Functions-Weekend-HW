@@ -39,7 +39,7 @@ public class Main {
     }
 
     public String notString(String str) {
-        if(str.matches("^not.*"))
+        if(str.matches("^not .*"))
             return str;
         return "not " + str;
     }
